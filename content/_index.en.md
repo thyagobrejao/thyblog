@@ -1,5 +1,5 @@
 ---
-date: '2026-03-26T16:45:24-03:00'
+date: '2026-03-26T21:53:54Z'
 draft: false
 title: 'Blog Thyago.dev.br'
 cascade:
@@ -8,4 +8,7 @@ cascade:
 
 ## 📝 Latest Posts
 
-No published posts yet. Stay tuned! 🚀
+### 📅 March 2026
+
+- [Saiu a Escala — How I Automated the Biggest Headache in Church Ministry](/projetos/saiu-a-escala/) *(03/26/2026)* — `project`, `django`, `python`, `flutter`, `celery`, `firebase`, `whatsapp`, `saas`
+

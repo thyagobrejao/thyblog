@@ -1,5 +1,5 @@
 ---
-date: '2026-03-26T16:45:24-03:00'
+date: '2026-03-26T21:53:54Z'
 draft: false
 title: 'Blog Thyago.dev.br'
 cascade:
@@ -8,4 +8,7 @@ cascade:
 
 ## 📝 Últimos Posts
 
-Nenhum post publicado ainda. Em breve teremos novidades! 🚀
+### 📅 Março 2026
+
+- [Saiu a Escala — Como eu automatizei a maior dor de cabeça das paróquias](/projetos/saiu-a-escala/) *(26/03/2026)* — `projeto`, `django`, `python`, `flutter`, `celery`, `firebase`, `whatsapp`, `saas`
+

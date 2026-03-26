@@ -1,21 +1,15 @@
 ---
 title: "Projetos"
-date: '2026-03-26T16:42:00-03:00'
+date: '2026-03-26T21:53:54Z'
 tags:
   - projetos
   - portfolio
 draft: false
-coming_soon: true
 ---
 
-# 🚧 Conteúdo no Forno! 🍕
+## 📝 Últimos Posts
 
-Calma, jovem padawan! Os projetos estão sendo documentados com carinho (e muito café ☕).
+### 📅 Março 2026
 
-Por enquanto, imagine que aqui terá uma coleção épica de projetos que vão desde **gambiarras geniais** até **soluções quase profissionais**.
+- [Saiu a Escala — Como eu automatizei a maior dor de cabeça das paróquias](/projetos/saiu-a-escala/) *(26/03/2026)* — `projeto`, `django`, `python`, `flutter`, `celery`, `firebase`, `whatsapp`, `saas`
 
-> *"Um projeto não documentado é como uma pizza sem queijo — funciona, mas ninguém quer."*
-
-🔨 **Previsão de entrega:** Quando ficar pronto.
-
-Enquanto isso, dá uma olhada nas outras seções ou vai tomar um café. ☕
