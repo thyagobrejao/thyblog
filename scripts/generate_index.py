@@ -188,7 +188,10 @@ def collect_posts():
 def generate_index(posts, lang="pt"):
     """Generate the _index.md content with posts grouped by year/month."""
     lines = []
-    now = datetime.now().strftime("%Y-%m-%dT%H:%M:%S-03:00")
+    
+    # Use UTC for the generated date to avoid timezone issues on CI runners
+    from datetime import timezone
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     if lang == "en":
         month_names = MONTH_NAMES_EN
