@@ -112,3 +112,14 @@ params:
 
   toc:
     displayTags: true 
+
+
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: thyagobrejao/thyblog
+      repoId: R_kgDORxwiPg
+      category: General
+      categoryId: DIC_kwDORxwiPs4C5XLi
