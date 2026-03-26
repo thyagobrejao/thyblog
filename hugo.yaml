@@ -1,0 +1,114 @@
+baseURL: https://thyago.dev.br/
+locale: pt-br
+title: Thyago.dev.br
+enableEmoji: true
+enableGitInfo: true
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+# Multilingual
+defaultContentLanguage: pt-br
+languages:
+  pt-br:
+    languageName: Português (Brasil)
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
+
+menu:
+  main:
+    - identifier: theme
+      name: Theme
+      weight: 0
+      params:
+        type: theme-toggle
+    - identifier: about
+      name: Sobre
+      pageRef: /about
+      weight: 1
+    - identifier: github
+      name: GitHub ↗
+      url: "https://github.com/thyagobrejao"
+      weight: 2
+      params:
+        icon: github
+    - identifier: search
+      name: Buscar
+      weight: 3
+      params:
+        type: search
+    - identifier: language-switcher
+      name: Idioma
+      params:
+        type: language-switch
+        label: true
+        icon: "globe-alt"
+  sidebar:
+    - identifier: github
+      name: GitHub
+      weight: 1
+      url: "https://github.com/thyagobrejao"
+      params:
+        icon: github
+    - identifier: twitter
+      name: Twitter
+      weight: 2
+      url: "https://x.com/thyagobrejao"
+      params:
+        icon: x-twitter
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+outputs:
+  page: [html, markdown]
+  section: [html, markdown]
+
+
+params:
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  displayUpdatedAuthor: true
+
+  imageZoom:
+    enable: true
+
+  author:
+    name: Thyago Ribeiro
+    email: thyago.brejao@gmail.com
+  
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+
+  editURL:
+    enable: false
+
+  page:
+    displayPagination: false  # for docs pages
+    width: wide
+    contextMenu:
+      enable: true
+  blog:
+    list:
+      displayTags: true 
+    article:
+      displayPagination: false  # for blog articles
+
+  toc:
+    displayTags: true 
