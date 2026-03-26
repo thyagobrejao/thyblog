@@ -32,7 +32,7 @@ menu:
       weight: 1
     - identifier: github
       name: GitHub ↗
-      url: "https://github.com/thyagobrejao"
+      url: "https://github.com/thyagobrejao/thyblog"
       weight: 2
       params:
         icon: github
