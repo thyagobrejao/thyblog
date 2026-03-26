@@ -63,6 +63,16 @@ To create a new post or section:
    python3 scripts/generate_index.py
    ```
 
+### Deployment
+
+This blog is automatically deployed to **GitHub Pages** using GitHub Actions.
+
+To enable this:
+1. Go to your repository on GitHub.
+2. Navigate to **Settings** > **Pages**.
+3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+4. The blog will now automatically build and deploy every time you push to the `main` branch.
+
 ## ⚖️ License
 
 The source code and scripts in this repository are licensed under the **MIT License**.
