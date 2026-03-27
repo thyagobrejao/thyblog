@@ -15,9 +15,17 @@ languages:
   pt-br:
     languageName: Português (Brasil)
     weight: 1
+    params:
+      comments:
+        giscus:
+          lang: pt
   en:
     languageName: English
     weight: 2
+    params:
+      comments:
+        giscus:
+          lang: en
 
 menu:
   main:
