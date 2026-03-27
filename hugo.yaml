@@ -115,7 +115,7 @@ params:
 
 
   comments:
-    enable: false
+    enable: true
     type: giscus
 
     giscus:
