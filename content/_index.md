@@ -1,5 +1,5 @@
 ---
-date: '2026-05-14T13:04:52Z'
+date: '2026-05-30T13:04:25Z'
 draft: false
 title: 'Blog Thyago.dev.br'
 cascade:
@@ -10,6 +10,7 @@ cascade:
 
 ### 📅 Maio 2026
 
+- [Como zerei meus custos de infra (de R$ 300/mês para R$ 0) com uma VM monstra da Oracle e o Antigravity](/projetos/oracle-host/) *(30/05/2026)* — `infraestrutura`, `docker`, `self-hosting`, `oracle-cloud`, `cloudflare`, `devops`, `backups`
 - [A Moto Ideal — Você realmente precisa de tudo isso?](/motociclismo/moto-ideal/) *(14/05/2026)* — `motociclismo`, `motos`, `comparativo`, `aventura`, `trail`, `review`, `dica`
 
 ### 📅 Março 2026

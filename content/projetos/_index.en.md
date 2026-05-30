@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-date: '2026-05-14T13:04:52Z'
+date: '2026-05-30T13:04:25Z'
 tags:
   - projects
   - portfolio
@@ -8,6 +8,10 @@ draft: false
 ---
 
 ## 📝 Latest Posts
+
+### 📅 May 2026
+
+- [How I slashed my infra costs (from $60/mo to $0) with a beastly Oracle VM and Antigravity](/projetos/oracle-host/) *(05/30/2026)* — `infrastructure`, `docker`, `self-hosting`, `oracle-cloud`, `cloudflare`, `devops`, `backups`
 
 ### 📅 March 2026
 
